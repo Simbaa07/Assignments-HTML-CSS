@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>HTML FORMS</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+<body>
+    
+    <form>
+        <h1>Advertising Estimate</h1>
+        <label for = "Name/Comapny Name">Name/Company Name<span class ="required">*</span></label>
+        <br>
+        <input type = "text" id = "Name/Comapny Name" size = "100px" required>
+        <br><br>
+
+        <label for = "Email">Email<span class ="required">*</span></label> <br>
+        <input type = "email" id = "Email"  size = "100px" required>
+        <br><br>
+
+        <label for ="Ad Start Date">Ad Start Date<span class ="required">*</span></label><br>
+        <input type ="date" id = "Ad Start Date"  size = "100px" required>
+        <br><br>
+
+        <label for = "Ad End Date">Ad End Date<span class ="required">*</span></label><br>
+        <input type = "date" id="Ad End Date"  size = "100px" required>
+        <br><br>
+
+        <p>Advertising Size(pixels)</p>
+        <input type = "radio" name = "pixels"id = "option1">
+        <label for = "option1">Option1</label><br>
+        <input type = "radio" name = "pixels" id = "option2">
+        <label for = "option2">Option2</label><br>
+        <input type = "radio" name = "pixels" id = "option3">
+        <label for = "option3">Option3</label><br><br>
+
+        <p>Which sites would you like to advertise on?</p>
+        <input type="checkbox" name = "site" id = "option1">
+        <label for="option1">Option1</label><br>
+        <input type="checkbox" name = "site" id = "option2">
+        <label for="option2">Option2</label><br>
+        <input type="checkbox" name = "site" id = "option3">
+        <label for="option3">Option3</label><br><br>
+        
+        <label for = "websites">Websites to be advertised<span class ="required">*</span></label><br>
+        <input type = "url" id = "websites" size = "100px" > 
+        <p>Comments</p>
+        <textarea cols = "30" rows = "10"></textarea>
+        <br><br>
+
+        <input type = "submit" value = "Submit">
+    </form>
+</body>
+</html>
